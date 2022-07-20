@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#top-pai{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(209, 209, 209);
+    position: fixed;
+    justify-content: space-between;
+   
+}
+#top-pai a{
+    text-decoration: none;
+    color:#000;
+}
+#sub-top-netos a:hover{
+    text-decoration: underline;
+}
+#top-pai a span{
+    color: rgb(80, 187, 241);
+}
+.top-filho{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub-top-netos{
+    width: 16vw;
+    display: flex;
+}
+.top-netos{
+    padding: 15px;
+}
+.conteudo-pai{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.conteudo-filho{
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('../img/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteudo-filho h2, .conteudo-filho h3{
+    color: #fff;
+    text-align: center;
+}
+.conteudo-secundario,.rota-pai,.conteudo-filho-secundario,.sobre-pai,.rodape-pai,.div-filho-principal{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-filho-secundario{
+    width: 37.5em;
+    height: 14.37em;
+    background-color: rgba(46, 139, 79, 0.6);
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #fff;
+}
+.conteudo-filho-secundario h2{
+    font-size: 3.44em;
+    margin-bottom: 15px;
+}
+.conteudo-filho-secundario h3{
+    font-weight: normal;
+    font-size: 1.87em;
+    flex-grow: 2;
+}
+.conteudo-secundario,.rota-pai{
+    width: 99vw;
+    height: 40vh;
+    text-align: center;
+}
+.conteudo-secundario-filhos h2 , .conteudo-secundario-filhos p, .conteudo-secundario-2-desc a, .rota-filho,.sobre-pai{
+    margin-bottom: 15px;
+    color: rgb(83, 81, 81);
+}
+.conteudo-secundario-filhos h2 {
+    font-size: 48px;
+    flex-shrink: 1;
+}
+.conteudo-secundario-filhos p, .sobre-pai{
+    font-size: 22px;
+    flex-shrink: 1;
+}
+.conteudo-secundario-2,.sobre-neto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.conteudo-secundario-2-img img{
+    width: calc(90vw / 3);
+}
+.conteudo-secundario-2-desc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(24, 151, 100) ;
+}
+.conteudo-secundario-2-desc:hover{
+    background-color: rgb(196, 189, 189);
+}
+.conteudo-secundario-2-desc a{
+    margin: 0;
+    text-decoration: none;
+}
+.rota-pai{
+    height: 80vh;
+}
+.rota-filho h3{
+    font-size: 34px;
+    font-weight: normal;
+}
+.rota-filho p{
+    margin-bottom: 50px;
+}
+.rota-filho iframe{
+    width: 99vw;
+}
+.sobre-neto{
+    width: 99vw;
+    text-align: justify;
+    flex-flow: row wrap;
+    margin: 40px auto;
+}
+.sobre-neto-filhos-img img, .sobre-neto-filhos-titulo p,.sobre-neto-filhos-titulo h3{
+    width: calc(100vw / 5);
+    padding: 10px;
+}
+.sobre-neto-filhos-img img{
+    border-radius: 15px;
+    height: 250px;
+}
+.sobre-neto-filhos-titulo p{
+    flex-grow: 1;
+}
+.sobre-neto-filhos{
+    display: flex;
+    flex-direction: row; 
+}
+.sobre-filho{
+    margin-bottom: 10px;
+}
+.sobre-filho h2{
+    font-size: 40px;
+}
+.sobre-pai{
+    margin-bottom: 50px;
+}
+.dados{
+    height: 30vh;
+}
+.dados h4{
+    font-size: 22px;
+}
+.numero a{
+    text-decoration: none;
+    color:#fff;
+}
+.dados,.rodape-filhos{
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 138, 63);
+    color:#fff;
+    font-size: 18px;
+}
+.creditos .rodape-filhos{
+    font-weight: bold;
+    height: 5vh;
+}
+.rodape-img1,.rodape-img2,.rodape-img3{
+    width: 3vw;
+    height: 6vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rodape-filhos p{
+    padding: 10px;
+}
+.creditos-format{
+    border-top:1px solid;
+}
+.rodape-img1{
+    background-image: url('../img/icones/endereco.png');
+}
+.rodape-img2{
+    background-image: url('../img/icones/telefone.png');
+}
+.rodape-img3{
+    background-image: url('../img/icones/calendario.png');
+}
+

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+#top-pai{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(209, 209, 209);
+    position: fixed;
+    justify-content: space-between;
+   
+}
+#top-pai a{
+    text-decoration: none;
+    color:#000;
+}
+#sub-top-netos a:hover{
+    text-decoration: underline;
+}
+#top-pai a span{
+    color: rgb(80, 187, 241);
+}
+.top-filho{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub-top-netos{
+    width: 16vw;
+    display: flex;
+}
+.top-netos{
+    padding: 10px;
+}
+.conteudo-pai{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-filho{
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('../img/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility:hidden;
+}
+.conteudo-filho h2, .conteudo-filho h3{
+    color: #fff;
+    text-align: center;
+}
+.conteudo-filho-secundario{
+    width: 30vw;
+    height: 20vh;
+    background-color: rgba(46, 139, 79, 0.6);
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-filho-secundario h2{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.conteudo-filho-secundario h3{
+    font-weight: normal;
+    font-size: 30px;
+}
+.conteudo-secundario{
+    width: 90vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.conteudo-secundario-filhos h2 , .conteudo-secundario-filhos p{
+    margin-bottom: 15px;
+    color: rgb(83, 81, 81);
+}
+.conteudo-secundario-filhos h2 {
+    font-size: 48px;
+}
+.conteudo-secundario-filhos p{
+    font-size: 22px;
+}
+.conteudo-secundario-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.conteudo-secundario-2-img img{
+    width: calc(90vw / 3);
+}
